@@ -1,0 +1,37 @@
+{
+  "name": "my-ui-library",
+  "version": "1.0.0",
+  "description": "create a monorepo",
+  "author": "Annem jyothi ",
+  "homepage": "https://github.com/JYOTHIKONDUPALLY/frontend-fe-2-task#readme",
+  "license": "ISC",
+  "main": "lib/my-ui-library.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JYOTHIKONDUPALLY/frontend-fe-2-task.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "lint": "eslint .",
+    "publish": "lerna publish",
+    "clean": "rm -rf dist"
+  },
+  "bugs": {
+    "url": "https://github.com/JYOTHIKONDUPALLY/frontend-fe-2-task/issues"
+  },
+  "dependencies": {
+    "node": "^21.6.1",
+    "snabbdom": "^3.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17"
+  }
+}
